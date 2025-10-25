@@ -59,6 +59,7 @@ dependencies = [
  "clap",
  "glob",
  "rayon",
+ "std-lib",
 ]
 
 [[package]]
@@ -199,6 +200,12 @@ dependencies = [
  "crossbeam-deque",
  "crossbeam-utils",
 ]
+
+[[package]]
+name = "std-lib"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d7b332f5356ec23beb8819a2d0db35d7c174123c463522cd6f387bf65daa72ef"
 
 [[package]]
 name = "strsim"
